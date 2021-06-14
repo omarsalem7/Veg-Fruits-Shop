@@ -1,0 +1,60 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 60vh;
+  float: left;
+  margin: 0 10%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 20px 0px;
+
+  text-align: center;
+}
+.container a {
+  color: rgb(230, 173, 19);
+}
+.catagory {
+  margin: 10%;
+}
+
+.custom-button {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 102px;
+  height: 33px;
+  
+  margin: 7% 0;
+  padding: 5px 0px;
+  border-radius: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.custom-button a{
+  vertical-align: middle;
+}
+.custom-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
